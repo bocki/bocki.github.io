@@ -1,14 +1,14 @@
 // Typography
 ///////////////////////////////////////////////////////////////////////////////
-$sans-serif: $helvetica;
-$serif: $georgia;
+$sans-serif: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+$serif: 'Roboto Slab', 'Georgia', serif;
 
 $base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
+$header-font-family: $serif;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
-$base-font-size: 1em;
+$base-font-size: 18px;
 $base-line-height: $base-font-size * 1.5;
 $base-border-radius: em(3);
 
