@@ -1,0 +1,7 @@
+name: don't shoot
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+timezone: Europe/Vienna
+permalink: /:categories/:title

@@ -1,0 +1,22 @@
+/*! 
+  dontshoot.at stylesheet v0 - please help yourself 
+*/
+
+@import "bourbon/bourbon";
+@import "normalize";
+@import "bitters/bitters";
+$max-width: em(960);
+@import "neat/neat";
+
+html {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+body {
+	@include outer-container;
+	margin-top: 2em;
+	h1 {
+
+	}
+}
