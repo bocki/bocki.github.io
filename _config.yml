@@ -6,3 +6,6 @@ safe: true
 lsi: false
 timezone: Europe/Vienna
 permalink: /:categories/:title
+
+paginate: 5
+paginate_path: "/p:num"

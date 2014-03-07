@@ -34,3 +34,9 @@ article {
 
 	margin-bottom: 3em;
 }
+
+.pagination {
+	.previous, .next { display: block; width: 8em;}
+	.previous { float: left; }
+	.next {float: right; text-align: right; }
+}

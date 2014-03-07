@@ -354,3 +354,12 @@ article {
   article .metadata {
     text-align: center;
     font-size: 13.5px; }
+
+.pagination .previous, .pagination .next {
+  display: block;
+  width: 8em; }
+.pagination .previous {
+  float: left; }
+.pagination .next {
+  float: right;
+  text-align: right; }
