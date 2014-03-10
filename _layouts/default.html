@@ -4,12 +4,15 @@
 {% include head.html %}
   </head>
   <body>
+  <div id="main">
     <header class="hero">
       <h1 class="title"><a href="/">{{ site.name }}</a></h1>
       <h2 class="slogan">{{ site.slogan }}</h2>
     </header>
-    <div id="main">
-      {{ content }}
-    </div>
+    {{ content }}
+    <footer class="credits">
+      Hier könnte Ihre Werbung stehen! (Eigentlich könnte sie das nicht. Hier gibt es keine Werbung.)
+    </footer>
+  </div>
   </body>
 </html>

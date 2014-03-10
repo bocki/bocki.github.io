@@ -1,5 +1,5 @@
 name: don't shoot
-slogan: 'heir today, gone tomorrow'
+slogan: 'spiele. jeden tag. nur 2 minuten.'
 markdown: redcarpet
 pygments: true
 safe: true
@@ -7,5 +7,5 @@ lsi: false
 timezone: Europe/Vienna
 permalink: /:categories/:title
 
-paginate: 5
+paginate: 3
 paginate_path: "/p:num"

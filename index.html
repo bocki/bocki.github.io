@@ -10,7 +10,6 @@ layout: default
             Veröffentlicht am <time datetime="{{post.date | date_to_xmlschema}}">{{ post.date | date: "%-d. %B %Y" | replace:"January","Jänner" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time>. Von <span class="p-author h-card">{% if post.author %}{{ post.author }}{% else %}Florian Bock{% endif %}</span>.
           </div>
         </header>
-
         {{ post.excerpt }}
         {% assign excwords = post.excerpt | number_of_words %}{% assign artwords = post.content | number_of_words %}{% if excwords < artwords %}
         <a href="{{ post.url }}">Weiterlesen&hellip;</a>{% endif %}
@@ -19,10 +18,10 @@ layout: default
 
       <div class="pagination">
         {% if paginator.previous_page %}
-        <a href="{{paginator.previous_page_path | remove: "index.html" }}" class="previous">Vorherige Seite</a>
+        <a href="{{paginator.previous_page_path | remove: "index.html" }}" class="previous">&#8592; Vorherige Seite</a>
         {% endif %}
 
         {% if paginator.next_page %}
-        <a href="{{paginator.next_page_path}}" class="next">N&auml;chste Seite</a>
+        <a href="{{paginator.next_page_path}}" class="next">N&auml;chste Seite &#8594;</a>
         {% endif %}
       </div>

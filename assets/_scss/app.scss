@@ -18,7 +18,7 @@ body {
 	margin-bottom: 4em;
 }
 
-.hero, #main {
+#main {
 	@include outer-container;
 }
 
@@ -36,7 +36,14 @@ article {
 }
 
 .pagination {
+	@include clearfix;
 	.previous, .next { display: block; width: 8em;}
 	.previous { float: left; }
 	.next {float: right; text-align: right; }
+}
+
+footer.credits {
+	margin-top: 4em;
+	font-size: $base-font-size * 0.5;
+	text-align: center;
 }
