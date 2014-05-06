@@ -57,4 +57,10 @@ footer.credits {
 	font-size: $base-font-size * 0.5;
 	text-align: center;
 	line-height: $base-font-size * 0.5 * 1.5;
+
+	a {
+		@media screen and (max-width: 480px) {
+			font-size: $base-font-size * 0.8;
+		}
+	}
 }
