@@ -37,7 +37,7 @@ article {
 
 .pagination {
 	@include clearfix;
-	.previous, .next { display: block; width: 8em;}
+	.previous, .next { display: block; width: 10em;}
 	.previous { float: left; }
 	.next {float: right; text-align: right; }
 }

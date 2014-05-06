@@ -19,11 +19,11 @@ layout: default
       {% if paginator.total_pages > 1 %}
       <div class="pagination">
         {% if paginator.previous_page %}
-        <a href="{{paginator.previous_page_path | remove: "index.html" }}" class="previous">&#8592; Vorherige Seite</a>
+        <a href="{{paginator.previous_page_path | remove: "index.html" }}" class="previous">&#8592; Neuere Beitr&auml;ge</a>
         {% endif %}
 
         {% if paginator.next_page %}
-        <a href="{{paginator.next_page_path}}" class="next">N&auml;chste Seite &#8594;</a>
+        <a href="{{paginator.next_page_path}}" class="next">&Auml;ltere Beitr&auml;ge &#8594;</a>
         {% endif %}
       </div>
       {% endif %}
