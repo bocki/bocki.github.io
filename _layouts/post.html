@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-  <article>
+  <article itemscope itemtype="http://schema.org/Article">
   <header>
-    <h1>{{ page.title }}</h1>
+    <h1 itemprop="name">{{ page.title }}</h1>
     <div class="metadata">
-      Veröffentlicht am <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%-d. %B %Y" | replace:"January","Jänner" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time>. Von <span class="p-author h-card">{% if page.author %}{{ page.author }}{% else %}Florian Bock{% endif %}</span>.
+      Veröffentlicht am <time itemprop="datePublished" datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%-d. %B %Y" | replace:"January","Jänner" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time>.<span itemscope itemprop="author" itemtype="http://schema.org/Person">Von <span itemprop="name" class="author fn">{% if page.author %}{{ page.author }}{% else %}Florian Bock{% endif %}</span></span>.
     </div>
   </header>
+  <div itemprop="articleBody">
   {{ content }}
+  </div>
   </article>
