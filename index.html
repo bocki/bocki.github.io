@@ -3,11 +3,11 @@ layout: default
 ---
 
       {% for post in paginator.posts %}
-      <article>
+      <article itemscope itemtype="http://schema.org/Article">
         <header>
-          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <h1 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
           <div class="metadata">
-            Veröffentlicht am <time datetime="{{post.date | date_to_xmlschema}}">{{ post.date | date: "%-d. %B %Y" | replace:"January","Jänner" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time>. Von <span class="p-author h-card">{% if post.author %}{{ post.author }}{% else %}Florian Bock{% endif %}</span>.
+            Veröffentlicht am <time itemprop="datePublished" datetime="{{post.date | date_to_xmlschema}}">{{ post.date | date: "%-d. %B %Y" | replace:"January","Jänner" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time>. <span itemscope itemprop="author" itemtype="http://schema.org/Person">Von <span itemprop="name" class="author fn">{% if post.author %}{{ post.author }}{% else %}Florian Bock{% endif %}</span></span>.
           </div>
         </header>
         {{ post.excerpt }}
