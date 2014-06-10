@@ -1,0 +1,12 @@
+---
+layout: post
+title: Tunnelblick
+---
+
+Ich könnte wegen des Verdachts der Befangenheit nicht über [WildStar](http://wildstar-online.com/) urteilen. Ich tu's trotzdem - aber nur hier.
+
+Für [pressplay](http://www.press-play.at) habe ich einige Spiele rezensiert, manche davon [für gut befunden](http://www.press-play.at/2011/12/12/minecraft/), manche [eher weniger](http://www.press-play.at/2013/03/27/the-walking-dead-survival-instinct/) - aber ich bin bei allen Titeln nach dem selben Muster vorgegangen, habe immer nach den selben Kriterien bewertet. Demnach dürfte WildStar nicht mehr als eine durchschnittliche Note bekommen. Auf einer Skala von 1 bis 10 eine glatte 7, vielleicht auch 7_,5_. Über die Bedeutungslosigkeit dieser Zahlen mag ich vielleicht ein anderes Mal philosophieren - heute geht es darum, wie schön es ist, zwischendurch frei vom dauernden Bewerten zu sein. 
+
+WildStar ist das MMO-Projekt eines Studios, das von Ex-Blizzard-Mitarbeitern gegründet wurde. Diese Leute haben an der ursprünglichen Version von World of Warcraft mitgearbeitet und wissen daher, wie ein erfolgreiches Blockbuster-MMORPG auszusehen hat, und genau so spielt sich WildStar. Ich probiere MMOs extrem gerne aus, aber nur selten fesselt mich etwas länger als 20 Stunden, was letztendlich zu Erschöpfungserscheinungen geführt hat - bitte _nicht noch ein_ MMO. Damit bin ich nicht alleine: Die Abo-Zahlen bei WoW sinken konstant und Free-to-Play-Spiele vermögen die ehemaligen Abonnenten nicht hinreichend aufzufangen. Überspitzt formuliert: MMOs sind tot.
+
+Wie lange ich die vergangene Woche - trotz Arbeit - auf dem virtuellen Planeten Nexus insgesamt verbracht habe, will ich eigentlich gar nicht so genau wissen, zweifellos aber mehr als 20 Stunden. Carbine Studios haben offensichtlich verstanden, was die WoW-Veteranen am Genre heute stört. Ich muss es diesmal nicht hinterfragen, ignoriere gezielt Threads auf [Reddit](http://reddit.com/r/wildstar) und anderen Seiten, die Details zerpflücken, bis es keinen Spaß mehr macht. Stattdessen genieße ich die Zeit ganz unbeschwert mit Leveln (und Sterben - und zwar nicht selten) - ein Erlebnis, das ich das letzte Mal in vergleichbarer Form Ende 2007 hatte. Das Spiel damals hieß übrigens World of Warcraft...
