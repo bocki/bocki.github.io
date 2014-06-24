@@ -1,5 +1,6 @@
 name: don't shoot
-slogan: 'spiele. jeden tag. nur 2 minuten.'
+# slogan: 'spiele. jeden tag. nur 2 minuten.'
+slogan: 'gedanken. spiele.'
 url: http://dontshoot.at
 markdown: redcarpet
 pygments: true
